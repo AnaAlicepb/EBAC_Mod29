@@ -1,0 +1,22 @@
+-- Criação das sequências
+CREATE SEQUENCE cliente_id_seq;
+CREATE SEQUENCE produto_id_seq;
+CREATE SEQUENCE sq_cliente_2;
+
+-- Criação da tabela cliente
+CREATE TABLE cliente (
+    id BIGINT PRIMARY KEY DEFAULT nextval('cliente_id_seq'),
+    nome VARCHAR(255),
+    codigo VARCHAR(255)
+);
+
+-- Criação da tabela produto
+CREATE TABLE produto (
+    id BIGINT PRIMARY KEY DEFAULT nextval('produto_id_seq'),
+    nome VARCHAR(255),
+    codigo VARCHAR(255),
+    descricao TEXT,
+    preco DECIMAL,
+    disponivel BOOLEAN
+);
+vendas_online
