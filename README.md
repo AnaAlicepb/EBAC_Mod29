@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,7 +12,7 @@
 
 <header>
     <h1>Projeto VendasModulo29</h1>
-
+    
 </header>
 
 <details>
@@ -32,7 +31,7 @@
 <section id="sobre-o-projeto">
     <h2>Sobre o projeto</h2>
     <p>
-        Este projeto é um sistema de vendas desenvolvido no contexto do módulo 29 do curso . Ele permite o gerenciamento de clientes, produtos e vendas, utilizando Java, PostgreSQL e JUnit. O objetivo é oferecer uma experiência de aprendizado prática na implementação de funcionalidades básicas de um sistema de vendas.
+        Este projeto é um sistema de vendas desenvolvido no contexto do módulo 29 do curso da EBAC. Ele permite o gerenciamento de clientes, produtos e vendas, utilizando Java, PostgreSQL e JUnit. O objetivo é oferecer uma experiência de aprendizado prática na implementação de funcionalidades básicas de um sistema de vendas.
     </p>
     <p>
         Proposta de Valor: Oferecer uma experiência de compra conveniente, com uma seleção diversificada de produtos, facilidade de navegação e processos de compra e entrega eficientes.
@@ -85,7 +84,6 @@ ExemplosJDBCAlunos
 <section id="banco-de-dados">
     <h2>Banco de Dados</h2>
     <h3>Tabelas</h3>
-
     <h4>cliente</h4>
     <table>
         <thead>
@@ -109,7 +107,6 @@ ExemplosJDBCAlunos
             </tr>
         </tbody>
     </table>
-
     <h4>produto</h4>
     <table>
         <thead>
@@ -145,7 +142,6 @@ ExemplosJDBCAlunos
             </tr>
         </tbody>
     </table>
-
     <h3>Sequences</h3>
     <ul>
         <li>cliente_id_seq</li>
@@ -168,9 +164,8 @@ ExemplosJDBCAlunos
     <h2>Contato</h2>
     <ul>
         <li><a href="https://linktr.ee/anaeanali5" target="_blank"><img src="https://img.shields.io/badge/Ana_Alice_Rodrigues-blue?style=for-the-badge" alt="Perfil de Ana Alice Rodrigues"></a></li>
-
+        
     </ul>
-
 </section>
 
 </body>
